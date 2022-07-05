@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-05T18:34:05 IST" name="RestAssuredClassTest" finished-at="2022-07-05T18:34:09 IST" duration-ms="4130">
+    <groups>
+      <group name="POST">
+        <method signature="RestAssuredClassTest.validatePost()[pri:0, instance:RestAssuredClassTest@706a04ae]" name="validatePost" class="RestAssuredClassTest"/>
+      </group> <!-- POST -->
+      <group name="ASSERT">
+        <method signature="RestAssuredClassTest.ProcessAssert()[pri:0, instance:RestAssuredClassTest@706a04ae]" name="ProcessAssert" class="RestAssuredClassTest"/>
+      </group> <!-- ASSERT -->
+      <group name="GET">
+        <method signature="RestAssuredClassTest.getResponseBody()[pri:0, instance:RestAssuredClassTest@706a04ae]" name="getResponseBody" class="RestAssuredClassTest"/>
+      </group> <!-- GET -->
+      <group name="POJO Post">
+        <method signature="RestAssuredClassTest.ProcessResponsePOJOPost()[pri:0, instance:RestAssuredClassTest@706a04ae]" name="ProcessResponsePOJOPost" class="RestAssuredClassTest"/>
+        <method signature="RestAssuredClassTest.ValidatePOJOPost()[pri:0, instance:RestAssuredClassTest@706a04ae]" name="ValidatePOJOPost" class="RestAssuredClassTest"/>
+      </group> <!-- POJO Post -->
+      <group name="PUT">
+        <method signature="RestAssuredClassTest.validatePUT()[pri:0, instance:RestAssuredClassTest@706a04ae]" name="validatePUT" class="RestAssuredClassTest"/>
+      </group> <!-- PUT -->
+    </groups>
+    <test started-at="2022-07-05T18:34:05 IST" name="Command line test" finished-at="2022-07-05T18:34:09 IST" duration-ms="4130">
+      <class name="RestAssuredClassTest">
+        <test-method signature="ProcessAssert()[pri:0, instance:RestAssuredClassTest@706a04ae]" started-at="2022-07-05T18:34:05 IST" name="ProcessAssert" finished-at="2022-07-05T18:34:06 IST" duration-ms="1018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProcessAssert -->
+        <test-method signature="ProcessResponsePOJOPost()[pri:0, instance:RestAssuredClassTest@706a04ae]" started-at="2022-07-05T18:34:06 IST" name="ProcessResponsePOJOPost" finished-at="2022-07-05T18:34:07 IST" duration-ms="870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProcessResponsePOJOPost -->
+        <test-method signature="ValidatePOJOPost()[pri:0, instance:RestAssuredClassTest@706a04ae]" started-at="2022-07-05T18:34:07 IST" name="ValidatePOJOPost" finished-at="2022-07-05T18:34:07 IST" duration-ms="596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePOJOPost -->
+        <test-method signature="getResponseBody()[pri:0, instance:RestAssuredClassTest@706a04ae]" started-at="2022-07-05T18:34:07 IST" name="getResponseBody" finished-at="2022-07-05T18:34:08 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseBody -->
+        <test-method signature="validatePUT()[pri:0, instance:RestAssuredClassTest@706a04ae]" started-at="2022-07-05T18:34:08 IST" name="validatePUT" finished-at="2022-07-05T18:34:08 IST" duration-ms="811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePUT -->
+        <test-method signature="validatePost()[pri:0, instance:RestAssuredClassTest@706a04ae]" started-at="2022-07-05T18:34:08 IST" name="validatePost" finished-at="2022-07-05T18:34:09 IST" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePost -->
+      </class> <!-- RestAssuredClassTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- RestAssuredClassTest -->
+</testng-results>
